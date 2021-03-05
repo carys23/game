@@ -1,0 +1,67 @@
+@import url('../images/image1.jpeg');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@font-face {
+    font-family: 'smelly';
+    src:url('C:\Users\carys\OneDrive\Documents\Codenations\week4\unicorn\smelly-blood-font.zip');}
+
+
+
+body {
+    background-image: url(../unicorn/images/image1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'shadows';
+   
+}
+
+body {
+    
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+    
+
+}
+
+.container:hover{
+    height: 250px;
+    width: 100%;
+    opacity: 100%;
+
+    background-image: url(../unicorn/images/blood.jpg);
+} 
+
+#startBtn  {
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 70px;
+    color: crimson;
+    background-image: url(../unicorn/images/inspec.jpg);
+    opacity: 90%;
+    font-family: 'Indie';
+    
+}
+.container {
+
+    display: flex;
+    text-justify: auto;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin-top: 70px;
+    font-size: 50%;
+    background-color: white;
+    opacity: 80%;
+ 
+}
+
+img {
+
+  width: 150px;
+  height: 150px;
+} 
+
+  
